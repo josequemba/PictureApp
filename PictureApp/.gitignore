@@ -1,0 +1,53 @@
+//
+//  .gitignore
+//  PictureApp
+//
+//  Created by Jose Quemba on 5/7/25.
+//
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+/.build/
+/Packages/
+/.swiftpm
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Bundler
+.bundle/
+
+# IDE
+.idea/
+*.iml
+
+# Misc
+.DS_Store
+.env
+*.swp
+*.lock
+*.log
+*.orig
