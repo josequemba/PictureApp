@@ -21,12 +21,7 @@ struct ContentView: View {
     @StateObject private var viewModel = PhotoNoteViewModel()
     
     var body: some View {
-        Text("PhotoNotes App")
-            .padding()
-            .onAppear {
-                // Add sample data for testing
-                viewModel.addSampleData()
-            }
+        PhotoNoteListView(viewModel: viewModel)
     }
 }
 
