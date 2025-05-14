@@ -7,7 +7,7 @@
 import Foundation
 import SwiftUI
 
-struct PhotoNote: Identifiable, Codable {
+struct PhotoNote: Identifiable, Codable, Equatable {
     var id: UUID
     var caption: String
     var imagePath: String
