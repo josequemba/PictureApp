@@ -11,7 +11,7 @@ To use the app:
 4. Enter a caption and save the note.
 5. View, edit, or delete saved notes from the list.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/5NdzOfyRI-g)
 
 # Development Environment
 
